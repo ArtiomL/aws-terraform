@@ -25,7 +25,7 @@ resource "aws_acm_certificate" "main" {
 }
 
 resource "aws_route53_record" "acm" {
-  zone_id = "${var.route53_zone_id}"
+  zone_id = "${var.zone_id}"
   name    = "${aws_acm_certificate.main.domain_validation_options.0.resource_record_name}"
   ttl     = 60
   type    = "${aws_acm_certificate.main.domain_validation_options.0.resource_record_type}"
