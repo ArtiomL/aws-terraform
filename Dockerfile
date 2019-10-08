@@ -1,14 +1,14 @@
-# f5-terraform - Dockerfile
-# https://github.com/ArtiomL/f5-terraform
+# aws-terraform - Dockerfile
+# https://github.com/ArtiomL/aws-terraform
 # Artiom Lichtenstein
-# v1.0.3, 05/09/2018
+# v1.0.3, 08/10/2019
 
 FROM alpine
 
 LABEL maintainer="Artiom Lichtenstein" version="1.0.3"
 
 # Core dependencies
-RUN apk add --update --no-cache coreutils curl git jq && \
+RUN apk add --update --no-cache bash coreutils curl git jq && \
 	rm -rf /var/cache/apk/*
 
 # Terraform

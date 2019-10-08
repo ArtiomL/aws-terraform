@@ -1,12 +1,12 @@
 #!/bin/bash
-# f5-terraform - Run Tests
-# https://github.com/ArtiomL/f5-terraform
+# aws-terraform - Run Tests
+# https://github.com/ArtiomL/aws-terraform
 # Artiom Lichtenstein
-# v1.0.5, 30/09/2018
+# v1.0.6, 08/10/2019
 
 set -xeo pipefail
 
-REPO="artioml/f5-terraform"
+REPO="artioml/aws-terraform"
 
 # Terraform
 str_TEST="terraform --version; \
