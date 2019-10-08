@@ -25,6 +25,9 @@ COPY .creds /home/user/
 RUN chown -RL user: /opt/terraform/ /home/user/
 RUN chmod +x scripts/start.sh
 
+# Environment variables
+ENV PATH="/opt/terraform:${PATH}"
+
 # UID to use when running the image and for CMD
 USER 1001
 
