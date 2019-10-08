@@ -22,7 +22,7 @@
 
 ## Description
 
-Cloud Infrastructure as Code with declarative modules and configuration files.
+Infrastructure as Code with declarative modules and configuration files.
 
 &nbsp;&nbsp;
 
@@ -30,14 +30,14 @@ Cloud Infrastructure as Code with declarative modules and configuration files.
 
 ### Run
 ```shell
-# Terraform v0.11.10
+# Terraform v0.12.10
 docker run -it artioml/aws-terraform
 
 ```
 
 ### Credentials
 The home directory used when running the image (`/home/user/`) has the following [structure](.creds).  
-Each subdirectory contains the relevant access keys / tokens for the corresponding public cloud.  
+Each subdirectory contains the relevant access keys / tokens.  
 Either edit the `credentials` files for your environment, or mount a local directory with the same path structure:
 
 ```
@@ -52,9 +52,9 @@ The container will dynamically pull down (and `cd` to) whatever GitHub repositor
 ```shell
 -e "REPO=<GitHub_Username>/<Repo_Name>"
 ```
-For [example](https://github.com/ArtiomL/terraform-do):
+For [example](https://github.com/ArtiomL/aws-labs):
 ```shell
-docker run -it -e "REPO=artioml/terraform-do" artioml/aws-terraform
+docker run -it -e "REPO=artioml/aws-labs" artioml/aws-terraform
 ```
 
 &nbsp;&nbsp;
