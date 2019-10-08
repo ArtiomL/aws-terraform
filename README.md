@@ -6,7 +6,6 @@
 [![Issues](https://img.shields.io/github/issues/ArtiomL/aws-terraform.svg)](https://github.com/ArtiomL/aws-terraform/issues)
 [![Docker Hub](https://img.shields.io/docker/pulls/artioml/aws-terraform.svg)](https://hub.docker.com/r/artioml/aws-terraform/)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
-[![Slack Status](https://f5cloudsolutions.herokuapp.com/badge.svg)](https://f5cloudsolutions.herokuapp.com)
 
 &nbsp;&nbsp;
 
