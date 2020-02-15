@@ -2,7 +2,7 @@
 [![Build Status](https://img.shields.io/travis/com/ArtiomL/aws-terraform/develop.svg)](https://travis-ci.com/ArtiomL/aws-terraform)
 [![Releases](https://img.shields.io/github/release/ArtiomL/aws-terraform.svg)](https://github.com/ArtiomL/aws-terraform/releases)
 [![Commits](https://img.shields.io/github/commits-since/ArtiomL/aws-terraform/latest.svg?label=commits%20since)](https://github.com/ArtiomL/aws-terraform/commits/master)
-[![Maintenance](https://img.shields.io/maintenance/yes/2019.svg)](https://github.com/ArtiomL/aws-terraform/graphs/code-frequency)
+[![Maintenance](https://img.shields.io/maintenance/yes/2020.svg)](https://github.com/ArtiomL/aws-terraform/graphs/code-frequency)
 [![Issues](https://img.shields.io/github/issues/ArtiomL/aws-terraform.svg)](https://github.com/ArtiomL/aws-terraform/issues)
 [![Docker Hub](https://img.shields.io/docker/pulls/artioml/aws-terraform.svg)](https://hub.docker.com/r/artioml/aws-terraform/)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
