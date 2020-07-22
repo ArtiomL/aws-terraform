@@ -10,8 +10,7 @@ REPO="artioml/aws-terraform"
 
 # Terraform
 str_TEST="terraform --version; \
-	cp -n cfg/aws/dev/* cfg/aws/adct/; \
-	find cfg/ env/ modules/ -type d -print0 | xargs -0 -n1 -t terraform init"
+	find modules/ -type d -print0 | xargs -0 -n1 -t terraform init"
 
 if [ "$TRAVIS" == "true" ]; then
 	docker run $REPO /bin/sh -c "set -xeo pipefail; $str_TEST"
